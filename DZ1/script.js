@@ -19,4 +19,10 @@ console.log(d);
 //Задача 4
 
 
+const main=10
+let m,n;
+m = prompt("Введите число m:", 8.5), n = prompt("Введите число n:", 11.45);
+let first=m>0?m:-m
+let second=n>0?n:-n
+console.log("min"+((main-first)>(main-first)) ? "n="+n : "m=" +m);
 
