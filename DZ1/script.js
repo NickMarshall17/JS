@@ -18,11 +18,14 @@ console.log(d);
 
 //Задача 4
 
+let ten = 10;
+let m = 31;
+let n = -20;
 
-const main=10
-let m,n;
-m = prompt("Введите число m:", 8.5), n = prompt("Введите число n:", 11.45);
-let first=m>0?m:-m
-let second=n>0?n:-n
-console.log("min"+((main-first)>(main-first)) ? "n="+n : "m=" +m);
+let res1 = ten - m;
+res1 = res1 > 0 ? res1 : 0 - res1;
+let res2 = ten - n;
+res2 = res2 > 0 ? res2 : 0 - res2;
+let result = res1 >= res2 ? n : m;
 
+console.log(result);
